@@ -1,4 +1,4 @@
-#!/home/lux/Documents/virtual/Twitter/bin/python
+#!/usr/bin/python3
 
 import twint
 from confluent_kafka import Producer
@@ -36,13 +36,14 @@ def Json(obj, config):
     p.flush()
 
 
-module.Json = Json
+#  module.Json = Json
 
 c = twint.Config()
 
 c.Search = "Covid-19"
+#c.Search = "Nike"
 c.Store_json = True
-c.Geo = "20.71502,-101.68945,692km"
+c.Geo = "20.71502,-101.68945,500km"
 # c.Lowercase = True
 #c.Custom["user"] = ["id", "tweet", "user_id", "username", "hashtags", "mentions"]
 c.User_full = True

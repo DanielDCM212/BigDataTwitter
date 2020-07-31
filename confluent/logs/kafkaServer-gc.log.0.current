@@ -1,8 +1,0 @@
-Java HotSpot(TM) 64-Bit Server VM (25.251-b08) for linux-amd64 JRE (1.8.0_251-b08), built on Mar 11 2020 23:20:16 by "java_re" with gcc 7.3.0
-Memory: 4k page, physical 7318032k(125624k free), swap 0k(0k free)
-CommandLine flags: -XX:+ExplicitGCInvokesConcurrent -XX:GCLogFileSize=104857600 -XX:InitialHeapSize=1073741824 -XX:InitiatingHeapOccupancyPercent=35 -XX:+ManagementServer -XX:MaxGCPauseMillis=20 -XX:MaxHeapSize=1073741824 -XX:MaxInlineLevel=15 -XX:NumberOfGCLogFiles=10 -XX:+PrintGC -XX:+PrintGCDateStamps -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseG1GC -XX:+UseGCLogFileRotation 
-Heap
- garbage-first heap   total 1048576K, used 43008K [0x00000000c0000000, 0x00000000c0102000, 0x0000000100000000)
-  region size 1024K, 43 young (44032K), 0 survivors (0K)
- Metaspace       used 17046K, capacity 17422K, committed 17664K, reserved 1064960K
-  class space    used 2350K, capacity 2446K, committed 2560K, reserved 1048576K
