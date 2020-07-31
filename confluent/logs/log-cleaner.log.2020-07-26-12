@@ -1,0 +1,6 @@
+[2020-07-26 12:48:07,736] INFO Starting the log cleaner (kafka.log.LogCleaner)
+[2020-07-26 12:48:07,938] INFO [kafka-log-cleaner-thread-0]: Starting (kafka.log.LogCleaner)
+[2020-07-26 12:56:31,409] INFO The cleaning for partition test1-0 is aborted and paused (kafka.log.LogCleaner)
+[2020-07-26 12:56:31,410] INFO The cleaning for partition test1-0 is aborted (kafka.log.LogCleaner)
+[2020-07-26 12:56:37,391] INFO The cleaning for partition test2-0 is aborted and paused (kafka.log.LogCleaner)
+[2020-07-26 12:56:37,391] INFO The cleaning for partition test2-0 is aborted (kafka.log.LogCleaner)

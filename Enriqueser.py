@@ -43,13 +43,8 @@ def delivery_report(err, msg):
 def main():
 
     try:
-        i=0
         while True:
-
-            if i == 10: break
-
             msg = c.poll(10)
-
             if msg is None:
                 continue
             else:
@@ -58,9 +53,9 @@ def main():
                 data = TextBlob(tweet)
                 message['sentiment'] = data.sentiment[0]
                 doc = json.dumps(message)
+                p.poll(0)
                 p.produce(producer_topic, value=doc, callback=delivery_report)
-            i+=1
-
+                print(doc)
     except KeyboardInterrupt:
         print("ERROR")
 

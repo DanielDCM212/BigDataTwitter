@@ -44,14 +44,14 @@ c.Search = "Covid-19"
 c.Store_json = True
 c.Geo = "20.71502,-101.68945,692km"
 # c.Lowercase = True
-# c.Custom["user"] = ["id", "tweet", "user_id", "username", "hashtags", "mentions"]
+#c.Custom["user"] = ["id", "tweet", "user_id", "username", "hashtags", "mentions"]
 c.User_full = True
 c.Output = "tweets.json"
 c.Since = "2020-01-01 00:00:00"
 c.Hide_output = True
 # c.Limit = 12
 
-# # c.Elasticsearch = "localhost:9200"
+c.Elasticsearch = "localhost:9200"
 
 
 twint.run.Search(c)

@@ -1,0 +1,2 @@
+[2020-07-25 19:45:25,017] INFO The cleaning for partition test1-0 is aborted and paused (kafka.log.LogCleaner)
+[2020-07-25 19:45:25,019] INFO The cleaning for partition test1-0 is aborted (kafka.log.LogCleaner)
