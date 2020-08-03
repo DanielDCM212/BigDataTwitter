@@ -1,0 +1,8 @@
+[2020-07-25 17:12:30,799] INFO The cleaning for partition test1-0 is aborted and paused (kafka.log.LogCleaner)
+[2020-07-25 17:12:30,805] INFO The cleaning for partition test1-0 is aborted (kafka.log.LogCleaner)
+[2020-07-25 17:12:44,104] INFO The cleaning for partition test2-0 is aborted and paused (kafka.log.LogCleaner)
+[2020-07-25 17:12:44,104] INFO The cleaning for partition test2-0 is aborted (kafka.log.LogCleaner)
+[2020-07-25 17:14:46,657] INFO Shutting down the log cleaner. (kafka.log.LogCleaner)
+[2020-07-25 17:14:46,658] INFO [kafka-log-cleaner-thread-0]: Shutting down (kafka.log.LogCleaner)
+[2020-07-25 17:14:46,659] INFO [kafka-log-cleaner-thread-0]: Stopped (kafka.log.LogCleaner)
+[2020-07-25 17:14:46,659] INFO [kafka-log-cleaner-thread-0]: Shutdown completed (kafka.log.LogCleaner)

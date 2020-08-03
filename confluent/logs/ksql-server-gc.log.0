@@ -1,0 +1,17 @@
+[2020-07-28T21:36:39.874-0500][gc] Using Concurrent Mark Sweep
+[2020-07-28T21:36:39.874-0500][gc,heap,coops] Heap address: 0x0000000740000000, size: 3072 MB, Compressed Oops mode: Zero based, Oop shift amount: 3
+[2020-07-28T21:36:42.755-0500][gc,start     ] GC(0) Pause Young (Allocation Failure)
+[2020-07-28T21:36:42.756-0500][gc,task      ] GC(0) Using 2 workers of 4 for evacuation
+[2020-07-28T21:36:42.812-0500][gc,heap      ] GC(0) ParNew: 45952K->5696K(51648K)
+[2020-07-28T21:36:42.812-0500][gc,heap      ] GC(0) CMS: 0K->5531K(57344K)
+[2020-07-28T21:36:42.812-0500][gc,metaspace ] GC(0) Metaspace: 8763K->8763K(1056768K)
+[2020-07-28T21:36:42.812-0500][gc           ] GC(0) Pause Young (Allocation Failure) 44M->10M(106M) 56.682ms
+[2020-07-28T21:36:42.812-0500][gc,cpu       ] GC(0) User=0.08s Sys=0.01s Real=0.06s
+[2020-07-28T21:36:42.977-0500][gc,heap,exit ] Heap
+[2020-07-28T21:36:42.977-0500][gc,heap,exit ]  par new generation   total 51648K, used 12190K [0x0000000740000000, 0x0000000743800000, 0x00000007a0000000)
+[2020-07-28T21:36:42.977-0500][gc,heap,exit ]   eden space 45952K,  14% used [0x0000000740000000, 0x0000000740657878, 0x0000000742ce0000)
+[2020-07-28T21:36:42.977-0500][gc,heap,exit ]   from space 5696K, 100% used [0x0000000743270000, 0x0000000743800000, 0x0000000743800000)
+[2020-07-28T21:36:42.977-0500][gc,heap,exit ]   to   space 5696K,   0% used [0x0000000742ce0000, 0x0000000742ce0000, 0x0000000743270000)
+[2020-07-28T21:36:42.977-0500][gc,heap,exit ]  concurrent mark-sweep generation total 57344K, used 5531K [0x00000007a0000000, 0x00000007a3800000, 0x0000000800000000)
+[2020-07-28T21:36:42.977-0500][gc,heap,exit ]  Metaspace       used 9551K, capacity 9968K, committed 10368K, reserved 1058816K
+[2020-07-28T21:36:42.977-0500][gc,heap,exit ]   class space    used 1137K, capacity 1285K, committed 1408K, reserved 1048576K
