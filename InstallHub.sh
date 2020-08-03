@@ -14,6 +14,8 @@ sudo apt-get install -y python3-pip
 
 pip3 install confluent-kafka textblob elasticsearch twint
 
+cd ~/
+
 mkdir ElasticSearchHub
 cd ElasticSearchHub
 
