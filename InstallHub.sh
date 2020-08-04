@@ -18,7 +18,6 @@ cd BigDataTwitter
 
 sudo mv confluent/ /opt
 
-
 cd ~/
 
 mkdir ElasticSearchHub
@@ -52,3 +51,25 @@ export PATH=$PATH:$ELASTIC_HOME:$KIBANA_HOME:$LOGSTASH_HOME:$KAFKA_HOME;
 ' | sudo tee -a /etc/profile
 
 source /etc/profile
+
+sed -i -e 's/#server.port: 5601/server.port: 5601/g' \
+    -e 's/#server.host: "localhost"/server.host: "0.0.0.0"/g' \
+    -e 's/#elasticsearch.hosts: ["http:\/\/localhost:9200"]/elasticsearch.hosts: ["http:\/\/localhost:9200"]/g' \
+    -e 's/#kibana.index: ".kibana"/kibana.index: ".kibana"/g' \
+    ~/ElasticSearchHub/kibana-7.8.1-linux-x86_64/config/kibana.yml
+
+echo '
+input {
+    kafka {
+        codec => json
+        bootstrap_servers => "localhost:9092"
+        topics => "test2"
+    }
+}
+output {
+    elasticsearch {
+        hosts => "http://localhost:9200"
+        index => "twitter"
+    }
+}
+' > ~/ElasticSearchHub/logstash-7.8.1/config/logstash.conf
