@@ -1,6 +1,7 @@
 ### Start Kafka ###
 sudo /opt/confluent/bin/zookeeper-server-start -daemon /opt/confluent/etc/kafka/zookeeper.properties
 nohup /opt/confluent/bin/kafka-server-start /opt/confluent/etc/kafka/server.properties &
+sleep 15
 
 ### Create Topics ###
 kafka-topics --create --topic test1 --zookeeper  localhost:2181 --partitions 1 --replication-factor 1

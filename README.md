@@ -38,4 +38,5 @@ bash StartService.sh
 
 ## Run Listening and Enriqueser
 python3 ListeningKafka.py
+
 python3 Enriqueser.py

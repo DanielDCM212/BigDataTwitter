@@ -14,14 +14,10 @@ sudo apt-get install -y python3-pip
 
 pip3 install confluent-kafka textblob elasticsearch twint
 
-cd BigDataTwitter
-
 sudo mv confluent/ /opt
 
-cd ~/
-
-mkdir ElasticSearchHub
-cd ElasticSearchHub
+mkdir ~/ElasticSearchHub
+cd ~/ElasticSearchHub
 
 wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.8.1-linux-x86_64.tar.gz
 wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.8.1-linux-x86_64.tar.gz.sha512
