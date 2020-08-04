@@ -54,7 +54,7 @@ source /etc/profile
 
 sed -i -e 's/#server.port: 5601/server.port: 5601/g' \
     -e 's/#server.host: "localhost"/server.host: "0.0.0.0"/g' \
-    -e 's/#elasticsearch.hosts: ["http:\/\/localhost:9200"]/elasticsearch.hosts: ["http:\/\/localhost:9200"]/g' \
+    -e 's/#elasticsearch.hosts: \["http:\/\/localhost:9200"\]/elasticsearch.hosts: \["http:\/\/localhost:9200"\]/g' \
     -e 's/#kibana.index: ".kibana"/kibana.index: ".kibana"/g' \
     ~/ElasticSearchHub/kibana-7.8.1-linux-x86_64/config/kibana.yml
 
