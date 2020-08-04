@@ -6,4 +6,3 @@ nohup ~/ElasticSearchHub/kibana-7.8.1-linux-x86_64/bin/kibana &
 sleep 20
 nohup ~/ElasticSearchHub/elasticsearch-7.8.1/bin/elasticsearch &
 nohup ~/ElasticSearchHub/logstash-7.8.1/bin/logstash -f ~/ElasticSearchHub/logstash-7.8.1/config/logstash.conf &
-sleep 20
