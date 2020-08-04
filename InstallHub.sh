@@ -14,6 +14,11 @@ sudo apt-get install -y python3-pip
 
 pip3 install confluent-kafka textblob elasticsearch twint
 
+cd BigDataTwitter
+
+sudo mv confluent/ /opt
+
+
 cd ~/
 
 mkdir ElasticSearchHub
@@ -37,7 +42,7 @@ mv *.tar.gz compress
 
 echo '
 ##### Kafka Confluent #####
-KAFKA_HOME="~/confluent/bin"
+KAFKA_HOME="/opt/confluent/bin"
 
 ##### ElasticSearch Hub #####
 ELASTIC_HOME="~/ElasticSearchHub/elasticsearch-7.8.1/bin";
@@ -47,14 +52,3 @@ export PATH=$PATH:$ELASTIC_HOME:$KIBANA_HOME:$LOGSTASH_HOME:$KAFKA_HOME;
 ' | sudo tee -a /etc/profile
 
 source /etc/profile
-
-# cd ~/
-
-# git clone https://github.com/DanielDCM212/BigDataTwitter.git
-
-# cd BigDataTwitter
-
-# tar -xzf confluent.tar.gz
-
-sudo mv confluent/ /opt
-

@@ -31,3 +31,5 @@ git clone https://github.com/DanielDCM212/BigDataTwitter.git
 cd BigDataTwitter
 
 bash InstallHub.sh
+
+## Ejecucion del programa
