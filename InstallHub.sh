@@ -4,10 +4,6 @@ sudo apt-get update -y && sudo apt-get upgrade -y
 
 sudo apt-get install -y git
 
-sudo apt-get install -y nodejs
-
-sudo apt-get install -y npm
-
 sudo apt install -y openjdk-11-jre-headless
 
 sudo apt-get install -y python3-pip

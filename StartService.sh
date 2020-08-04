@@ -4,8 +4,8 @@ nohup /opt/confluent/bin/kafka-server-start /opt/confluent/etc/kafka/server.prop
 sleep 15
 
 ### Create Topics ###
-kafka-topics --create --topic test1 --zookeeper  localhost:2181 --partitions 1 --replication-factor 1
-kafka-topics --create --topic test2 --zookeeper  localhost:2181 --partitions 1 --replication-factor 1
+/opt/confluent/bin/kafka-topics --create --topic test1 --zookeeper  localhost:2181 --partitions 1 --replication-factor 1
+/opt/confluent/bin/kafka-topics --create --topic test2 --zookeeper  localhost:2181 --partitions 1 --replication-factor 1
 
 ### Start ElasticStack ###
 nohup ~/ElasticSearchHub/elasticsearch-7.8.1/bin/elasticsearch &
