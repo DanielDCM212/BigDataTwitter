@@ -1,5 +1,13 @@
 # BigDataTwitter
 
+## Team
++ [Daniel Cuevas](https://github.com/DanielDCM212)
++ [Jorge Erosa](https://github.com/JA-Erosa)
++ [Jeorval Cano](https://github.com/JeorvalCM)
++ [Jack Robles](https://github.com/JefeNovato044)
++ [Andres Hernandez](https://github.com/AndresHdez2000)
++ [Luna]()
+
 ## Tools:
 [![Java](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=Ubuntu&logoColor=orange&labelColor=101010)]()
 [![VsCode](https://img.shields.io/badge/VsCode-007396?style=for-the-badge&logo=Visual-Studio-Code&logoColor=white&labelColor=101010)]()
