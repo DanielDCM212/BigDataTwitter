@@ -48,13 +48,3 @@ bash StartService.sh
 python3 ListeningKafka.py
 
 python3 Enriqueser.py
-
-## Work Distribution
-|Student|%|Hrs|
-|--|--|--|
-|Luna Saul|75|30|
-|Cano Jeorval|5|2|
-|Erosa Agustin|5|2|
-|Robles Jack|5|2|
-|Cuevas Danilo|5|2|
-|Hernandez Andres|5|2|
